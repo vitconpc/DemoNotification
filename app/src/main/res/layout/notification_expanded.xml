@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:textAlignment="center"
+        android:text="This is custom notification"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:src="@drawable/tiger"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
